@@ -10,10 +10,9 @@ print("investment = to calculate the amount of interest you'll earn on your inve
 print ('-----------------------------------------------------------')
 
 #users can choose which calculation they want to do first
-The first output that the user sees when the program runs
+#The first output that the user sees when the program runs
 user_choice = input("Please enter either 'investment' or 'bond' from the menu above to proceed: ")
-user_choice = user_choice.lower()
-user_choice = user_choice.strip()
+user_choice = user_choice.lower().strip()
 print ('-----------------------------------------------------------')
 
 #check the validity of the user choice
