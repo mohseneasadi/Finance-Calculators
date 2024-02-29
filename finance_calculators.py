@@ -19,8 +19,7 @@ print ('-----------------------------------------------------------')
 while  user_choice != 'bond' and user_choice != 'investment' :
     print("That's not valid! Please enter just 'bond' or 'investment' ")
     user_choice = input ("Please enter what do you want calculate 'investment' or 'bond': ")
-    user_choice = user_choice.lower()
-    user_choice = user_choice.strip()
+    user_choice = user_choice.lower().strip()
     print('-----------------------------------------------------------')
 print("Thank you, Let's start")
 
